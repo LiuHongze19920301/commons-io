@@ -231,6 +231,10 @@ public class FileUtils {
         return System.getProperty("java.io.tmpdir");
     }
 
+    public static void main(String[] args) {
+        System.out.println(getUserDirectoryPath());
+    }
+
     /**
      * Returns a {@link File} representing the system temporary directory.
      *
